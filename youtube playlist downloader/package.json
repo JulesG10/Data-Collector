@@ -1,0 +1,20 @@
+{
+  "name": "playlist-fetcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "dependencies": {
+    "electron": "^10.1.5",
+    "request": "^2.88.2",
+    "youtube-dl": "^3.0.2",
+    "yt-dl-playlist": "^2.1.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^15.1.0"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC"
+}

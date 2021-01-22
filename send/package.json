@@ -1,0 +1,19 @@
+{
+  "name": "send",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"nexe index.js"
+  },
+  "author": "Jules GARCIA",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "loading-cli": "^1.1.0",
+    "mime-to-extensions": "^1.0.2",
+    "nexe": "^3.3.7",
+    "request": "^2.88.2"
+  }
+}
